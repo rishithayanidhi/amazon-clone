@@ -5,7 +5,7 @@ import 'firebase/compat/firestore';
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "",
+  apiKey: "AIzaSyCnUJ6bgJfPgauFw7eZXyLD9ST3YAwpyXk",
   authDomain: "challenge-57200.firebaseapp.com",
   projectId: "challenge-57200",
   storageBucket: "challenge-57200.appspot.com",
