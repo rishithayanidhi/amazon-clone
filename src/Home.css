@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin: 0; /* Remove margin */
+  width: 100vw; /* Full viewport width */
+  max-width: 100%; /* Ensure max width is 100% */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+
+.home::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+
+.home__container {
+  width: 100%; /* Ensure container is full width */
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  
+}
+
+.home__row{
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
